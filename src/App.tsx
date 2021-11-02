@@ -30,7 +30,7 @@ function App() {
     return (
       <div>
         <img src={joke.message} alt="hi" />
-        <button onClick={handleGetJoke}>Get another dog photo</button>
+        <button onClick={handleGetJoke}>Please show me another dog</button>
       </div>
     );
   } else {
