@@ -29,20 +29,22 @@ function App() {
   if (joke) {
     return (
       <div>
+        <h1>Dog Photo App</h1>
         <img src={joke.message} alt="hi" />
+        <br />
         <button onClick={handleGetJoke}>Please show me another dog</button>
       </div>
     );
   } else {
     return (
       <div>
-        <h1>Joke app</h1>
+        <h1>Dog Photo App</h1>
         <p>
           Click the button to trigger a <code>fetch</code> that gets a random
           dog photo from an API!
         </p>
 
-        <button onClick={handleGetJoke}>Get joke</button>
+        <button onClick={handleGetJoke}>Please show me a dog</button>
       </div>
     );
   }

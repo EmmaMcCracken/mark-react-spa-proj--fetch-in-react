@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #caf1f1;
 }
 
 code {
@@ -13,11 +14,24 @@ code {
 }
 img {
   max-width: 80%;
-  height: 500px;
+  height: 700px;
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
+  padding-bottom: 20px;
 }
 button {
   vertical-align: middle;
+  font-size: xx-large;
+  border-radius: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  color: darkslateblue;
+  background-color: rgb(145, 236, 236);
+}
+div {
+  text-align: center;
+}
+p {
+  font-size: larger;
 }
