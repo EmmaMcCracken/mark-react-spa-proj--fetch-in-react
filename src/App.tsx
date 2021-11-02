@@ -30,7 +30,9 @@ function App() {
     return (
       <div>
         <h1>Dog Photo App</h1>
-        <img src={joke.message} alt="hi" />
+        <div className="imageContainer">
+          <img src={joke.message} alt="hi" />
+        </div>
         <br />
         <button onClick={handleGetJoke}>Please show me another dog</button>
       </div>
